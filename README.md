@@ -7,7 +7,7 @@
 </div>
 
 <h2>Getting Started</h2>	<div><p>To use this library you must include the <a href='easyTree.js'>Easy Tree</a> library along with <a href = 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'>jQuery</a> in your project.</p></div>	<div><p>The first step for after including all the required files is to declare an instance of the library like this:</p></div>
-<div><img src='img/declarelibrary.png'></div>
+<div><img src='pub/img/declarelibrary.png'></div>
 
 <div><p>The next step is to create a tree object similar to this: </p></div>
 <div><img src='img/sitestruct.png'></div>
