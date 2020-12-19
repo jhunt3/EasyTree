@@ -221,6 +221,7 @@ function initLibModal(){
 				$(".map_responsive").css("zoom", fontzoom);
 				//$('#modaldiv').scrollLeft($('#modaldiv').scrollLeft($('#modaldiv').prop('scrollHeight'))*(oldScrollLeft
 				$('#modaldiv').scrollLeft($('#modaldiv').scrollLeft()*1.2)
+				$('#modaldiv').scrollTop($('#modaldiv').scrollTop()*1.2)
 			}
 			else{
 				let mapzoom = $("#modal-div").css("zoom")/1.1
@@ -228,6 +229,7 @@ function initLibModal(){
 				$("#modal-div").css("zoom", mapzoom);
 				$(".map_responsive").css("zoom", fontzoom);
 				$('#modaldiv').scrollLeft($('#modaldiv').scrollLeft()/1.2)
+				$('#modaldiv').scrollTop($('#modaldiv').scrollTop()/1.2)
 			}
 		});
 		
