@@ -53,7 +53,7 @@ function drawMap(mapdata, level,start){
 				iframe.src = mapdata[i].link
 				iframe.title = mapdata[i].page
 				iframe.style.overflow = 'hidden'
-				let text = "<a href="+mapdata[i].link+"><p >"+mapdata[i].page+"</p></a> Level: "+level+" Leafs: "+mapdata[i].numchildren
+				let text = "<a href="+mapdata[i].link+"><p >"+mapdata[i].page+"</p></a>"
 				cdiv.innerHTML=text
 				div.append(cdiv)
 				div.append(iframe)
@@ -130,7 +130,7 @@ function drawMap(mapdata, level,start){
 			iframe.src = mapdata[i].link
 			iframe.title = mapdata[i].page
 			iframe.style.overflow = 'hidden'
-			let text = "<a href="+mapdata[i].link+"><p >"+mapdata[i].page+"</p></a> Level: "+level+" Leafs: "+mapdata[i].numchildren
+			let text = "<a href="+mapdata[i].link+"><p >"+mapdata[i].page+"</p></a>"
 			cdiv.innerHTML=text
 			div.append(cdiv)
 			div.append(iframe)
@@ -295,7 +295,7 @@ MapGenerator.prototype = {
 	},
 	addTree: function(mapdata, buttonId){
 		const tab = document.getElementById(buttonId)
-		tab.className += ' collapsible'
+		//tab.className += ' collapsible'
 	
 		if($('#treeLibModal').length == 0){initLibModal()}
 		let modal = document.getElementById('treeLibModal')
@@ -327,15 +327,15 @@ MapGenerator.prototype = {
 			grid.style.gridTemplateRows = grid_r_style
 			log(totalleafs)
 			log(mapdata)
-			styleData(mapdata, 1)
+			//styleData(mapdata, 1)
 			//grid.style.gridTemplateAreas = '"
 			//const item = document.getElementById('1')
 			//item.style.gridArea = '1 / 1 / span 1 / span 2'
 			//log(item)
 				
 		}
-		const body = $('body')
-		body.append(tab)
+		//const body = $('body')
+		//body.append(tab)
 		
 
 	}
