@@ -7,17 +7,17 @@
 </div>
 
 <h2>Getting Started</h2>	<div><p>To use this library you must include the <a href='easyTree.js'>Easy Tree</a> library along with <a href = 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'>jQuery</a> in your project.</p></div>	<div><p>The first step for after including all the required files is to declare an instance of the library like this:</p></div>
-<div><img src='img/declarelibrary.png'></div>
+<div><img src='pub/img/declarelibrary.png'></div>
 
 <div><p>The next step is to create a tree object similar to this: </p></div>
-<div><img src='img/sitestruct.png'></div>
+<div><img src='pub/img/sitestruct.png'></div>
 <div><p>And finally you must call a function to render the object you defined:</p></div>
-<div><img src = 'img/addsitemap.png'></div>
+<div><img src = 'pub/img/addsitemap.png'></div>
 <div><p>And that should create a button that opens will open the diagram when clicked! To get a better sense what this looks like check out the examples page, or for more details on using the library visit the API page.</p></div>
 </div>
 <h2>API</h2>
 <div><p>To initialize the library you must declare an instance like this</p></div>
-<div><img src='img/declarelibrary.png'></div>
+<div><img src='pub/img/declarelibrary.png'></div>
 <div><p>Once this is done there are three main interactions you can have with this library:</p></div>
 <div><p>- Defining a tree structure to be rendered</p></div>
 <div><p>- Rendering a tree as a site map diagram, function addMap</p></div>
@@ -29,16 +29,16 @@
 <div><p>3. children (optional) - expects an array of node objects, leaf node indicated with null or no 'children' attribute</p></div>
 <div><p>Example node object:</p></div>
 
-<div><img src='img/example-node.png'></div>
+<div><img src='pub/img/example-node.png'></div>
 <div><p>Example tree structure:</p></div>
-<div><img src='img/sitestruct.png'></div>
+<div><img src='pub/img/sitestruct.png'></div>
 
 <div><h3>addMap(struct) - Rendering as a Site Map</h3></div>
 <div><p>Once a tree structure is defined, rendering a diagram is very straightforward.</p></div>
 <div><p>If a defined tree structure 'mapdata' is a meant as a site navigation map with library instance 'mg', this will render a button in the top right corner of the page that will bring up the map in a modal when clicked:</p></div>
-<div><img src = 'img/addsitemap.png'></div>
+<div><img src = 'pub/img/addsitemap.png'></div>
 <div><h3>addTree(struct, elementID) - Link Render to HTML Element</h3></div>
 <div><p>This is if you would like to add a tree diagram within the sites contents.
 	To do this you must, in addition to defining a tree object, provide the HTML element ID of the element that, when clicked, will bring the diagram. For instance, we we want to render a structure 'linuxStructure' when a user clicks on an html element with ID 'textTree', we would call the following: </p></div>
-<div><img src = 'img/addtree.png'></div>
+<div><img src = 'pub/img/addtree.png'></div>
 <div><p>The rendered diagram will be given the name of the contents linked button.</p></div>
