@@ -1,3 +1,4 @@
+(Update: Only works in Chrome)
 <h2>Introduction</h2>
 Library landing page: https://young-sierra-51618.herokuapp.com/
 	<p>Welcome! Easy Tree is a web Javascript library that started off as a quick way for developers to add a more intuitive site navigation tool for users. It became apparent that this functionality could be broadened to help developers render a variety of interactive tree diagrams. <br/><br/>This site has a few pages:<br/>- Getting starting: provides a guide to what is required to use this library<br/>- API: describes in more detail how to use the library<br/>- Examples: provides 3 example use cases for this library
